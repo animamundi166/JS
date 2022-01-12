@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    box-shadow: 0 0 5px;
+    margin: 25px auto;
+    padding: 15px;
+    width: 600px;
+}
+
+.card:hover {
+    box-shadow: 0 0 7px;
+}
+
+.card img {
+    width: 200px;
+    border: solid #353535 1px;
+}
+
+.card p {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+.fullname {
+    font-size: 22px;
+}
+
+.rightcontainer {
+    color: #4e4c4c;
+    padding-left: 15px;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 10px;
+}
