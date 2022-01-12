@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Raleway:wght@300&display=swap');
+body {
+    margin: 30px auto;
+}
+
+.cardlist {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 60px;
+}
+
+.card {
+    box-shadow: 0 0 1px;
+    margin: 0 auto;
+    padding: 15px;
+    width: 200px;
+    background-color: #e5e5e5;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px;
+    transform: scale(1.05);
+    transition-timing-function: ease-in;
+    transition-duration: .2s;
+}
+
+.card img {
+    width: 200px;
+}
+
+.card p {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+.fullname {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #494949;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #494949;
+}
+
+.logo {
+    font-size: 60px;
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    font-family: 'Neucha', cursive;
+}
+
+.logocontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.creature {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 0;
+    border-radius: 100px;
+    background-size: 50px;
+    background-color: #e5e5e5;
+    transition-delay: .1s;
+}
+
+.creature:hover {
+    background-size: 55px;
+}
+
+.fish {
+    background-image: url(/src/components/Media/fish.png);
+}
+
+.seacreatures {
+    background-image: url(/src/components/Media/starfish.png);
+}
+
+.bugs {
+    background-image: url(/src/components/Media/bug.png);
+}
+
+.fossils {
+    background-image: url(/src/components/Media/fossil.png);
+}
+
+.villagers {
+    background-image: url(/src/components/Media/mad.png);
+}
