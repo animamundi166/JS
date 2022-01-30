@@ -9,5 +9,4 @@ const getResponse = async (animal) => {
     price: item.price,
   }));
 };
-
 export default getResponse;

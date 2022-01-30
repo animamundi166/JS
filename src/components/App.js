@@ -6,7 +6,6 @@ const App = async (api) => {
   const cardList = CardList({
     cards: await getResponse(api),
   });
-
   container.append(cardList);
   return container;
 };

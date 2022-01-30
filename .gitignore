@@ -1,3 +1,4 @@
 /.parcel-cache
 dist/
 /.eslintrc.json
+/node_modules
